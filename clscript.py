@@ -2,17 +2,10 @@ import discord, asyncio
 from colorama import Fore, Back, Style, init
 from os import system
 import shutil
-import subprocess
-
-#/////////////////////////////////////////////////////
 
 client = discord.Client()
 
 token = "PUT_TOKEN_IN_THESE_QUOTES"
-
-def tea(cmd):
-    subprocess.call(cmd, shell=True)
-#/////////////////////////////////////////////////////
 
 @client.event
 async def on_ready():
@@ -42,13 +35,13 @@ async def on_message(message):
         cpink = Style.BRIGHT + Fore.MAGENTA
 
         if commands[0] == 'cl':
-                    if len(commands) == 1:
-                        async for msg in channel.history(limit=9999):
-                            if msg.author == client.user:
-                                try:
-                                    await msg.delete()
-                                except Exception as x:
-                                    pass
+			if len(commands) == 1:
+				async for msg in channel.history(limit=9999):
+					if msg.author == client.user:
+						try:
+							await msg.delete()
+                        except Exception as x:
+								pass
 
         if commands[0] == 'cleardms':
             for channel in client.private_channels:
