@@ -1,0 +1,9 @@
+asyncio
+colorama
+shutil
+subprocess
+Fore
+Back
+Style
+init
+discord
