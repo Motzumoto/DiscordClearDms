@@ -6,4 +6,4 @@
 
  Have Fun and be safe out there. 
 
-Do `pip install requirements.txt` to install what the script needs to run. 
+Do `pip install -r requirements.txt` to install what the script needs to run. 
