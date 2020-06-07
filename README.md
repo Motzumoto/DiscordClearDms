@@ -6,4 +6,7 @@
 
  Have Fun and be safe out there. 
 
+To CD into the file to install the requirements go to where the file is, click and highlight the little address bar on the file, copy that
+then go into your command prompt and type `cd <Whatever_You_Copied>`then press enter. 
+
 Do `pip install -r requirements.txt` to install what the script needs to run. 
