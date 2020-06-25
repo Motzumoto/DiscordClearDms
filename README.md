@@ -5,7 +5,7 @@
  if you have a lot of dms it will obviously take a while but your account should be fine, it is a self bot, so it is against tos but discord probably wont know
 
  Have Fun and be safe out there. 
-#Where To Start
+# Where To Start
 
 Edit the clscript.py file with any text editor, find `"PUT_TOKEN_IN_THESE_QUOTES"` and replace your discord user token with that. then save, exit.
 
